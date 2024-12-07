@@ -19,8 +19,8 @@ Map of direction id's to direction vector
 directions = { # Task 1
     0 : (0,-1), # Up
     1 : (1,0), # Right
-    2 : (0,1), # Left
-    3 : (-1,0) # Down
+    2 : (0,1), # Down
+    3 : (-1,0) # Left
 }
 
 """
