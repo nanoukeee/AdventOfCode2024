@@ -71,7 +71,7 @@ def simulate_walk(start : tuple) -> None: # Task 1 & 2
         elif no_obstacle(new_x, new_y): # is free -> its safe to change the guards location
             curr_x, curr_y = (new_x, new_y)
         else:
-         curr_heading = (curr_heading + 1) % 4 # is occupied -> change heading and try again
+            curr_heading = (curr_heading + 1) % 4 # is occupied -> change heading and try again
     return loop, states, path, len(path)
 
 """
